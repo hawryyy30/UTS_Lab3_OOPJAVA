@@ -33,7 +33,7 @@ public class App {
     }
         
     public static String reverseChar(String kata) {
-        String reverse = new StringBuilder(kata).reverse().toString().toString();
+        String reverse = new StringBuilder(kata).reverse().toString();
         return reverse;
     }
             
